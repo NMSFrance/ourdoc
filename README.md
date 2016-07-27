@@ -22,7 +22,7 @@ Préfixer les messages de commit par les mots libelles suivants :
 - FEAT: nouvelle fonctionnalité,
 - CHANGE: modification de code,
 - FIX: correction d'un bug,
-- REFACT: refactoring.
+- REFACT: refactoring et structure du code (tout ce qui n'a pas d'impact sur les fonctionnalités et l'apparence du produit).
 
 Quand un commit comporte plusieurs objectifs à la fois, choisir le libelle le plus parlant, exemple de commit message :
 `CHANGE: bannière du site`
