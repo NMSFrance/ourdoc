@@ -18,7 +18,7 @@ Nous allons travailler avec les branches. Une branche devra être créée pour c
 - Si la branche n'est plus utile, la supprimer.
 
 ### Convention pour le commit
-Préfixer les messages de commit par les mots libellés suivants :
+Préfixer les messages de commit par les mots libelles suivants :
 - FEAT: nouvelle fonctionnalité,
 - CHANGE: modification de code,
 - FIX: correction d'un bug,
