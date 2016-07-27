@@ -34,5 +34,18 @@ Lorsqu'un commit solutionne ou apporte une solution à quelque chose d'évoqué 
 ## Mise en production
 
 ## Tickets
+Lorqu'un bug a été découvert, il faut laisser apparaître un écrit. Pour cela on va utiliser les tickets de GitHub.
+
+Pour déclarer un bug un ticket doit être de la forme suivante
+
+```
+URL : chemin/vers/le/bug (la page où le bug a été vu)
+
+BROWSER : Mozilla/Chrome/IE... - Mobile/PC
+
+REPRODUCTION : comment reproduire le bug, comment tu as été amené à le voir.
+
+DESCRIPTION : optionnel, tu peux donner des idées sur son origine ou apporter des précisions par exemple.
+```
 
 ## Code
