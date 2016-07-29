@@ -55,6 +55,23 @@ Ici tu vas voir comment tout le monde devra développer. Le but n'est pas de t'e
 ## General
 Applicable à tous les langages
 
+### Indentation
+Deux espaces. Attention à ne pas mettre de tab space, il s'agit bien de 2 espaces.
+```
+// Bien
+block
+  block
+    block
+      block
+        ...
+
+// Pas bien
+block
+    block
+        block
+            ...
+```
+
 ### Constantes
 Doivent être écrites en MAJUSCULE snake_case
 ```
