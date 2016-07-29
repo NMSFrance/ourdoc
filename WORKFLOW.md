@@ -28,7 +28,7 @@ Préfixer les messages de commit par les mots libelles suivants :
 Quand un commit comporte plusieurs objectifs à la fois, choisir le libelle le plus parlant, exemple de commit message :
 `CHANGE: bannière du site`
 
-On va rester sur du français pour les tickets ainsi que les messages de commit. Le message devra être neutre et doit stipuler qu'est ce qu'il impacte. Dans l'exemple du dessus il s'agit d'une modification sur la bannière du site.
+On va rester sur du français pour les tickets ainsi que les messages de commit. Le message doit être neutre et doit stipuler qu'est ce qu'il impact. Dans l'exemple du dessus il s'agit d'une modification sur la bannière du site.
 
 Lorsqu'un commit solutionne ou apporte une solution à quelque chose d'évoqué dans un ou plusieurs ticket(s). Optionnellement, ajouter la mention `closes #ticket-number1 #ticket-number2 ...` dans le message du commit. Sinon, il est possible de faire la même chose dans une pull request.
 
