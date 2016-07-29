@@ -1,7 +1,7 @@
 # Nos conventions
 Ce repo n'aura que ce README.md. Il sert de guide des bonnes pratiques pour notre workflow sur GitHub. Ce document est amené à évoluer.
 
-## GitHub workflow
+# GitHub workflow
 
 Il y aura toujours 2 branches sur lesquelles ont ne devra jamais push directement notre travail :
 - `master` qui servira pour la production,
@@ -9,7 +9,7 @@ Il y aura toujours 2 branches sur lesquelles ont ne devra jamais push directemen
 
 Nous allons travailler avec les branches. Une branche devra être créée pour contextualiser le travail à réaliser, par exemple je souhaite refondre des éléments graphiques, je vais créer une branche `design-update`.
 
-### Etapes
+## Etapes
 - Créer un branche basée sur la branche `dev` : `git checkout -b "nom de la branche"`,
 - Travailler dessus en local,
 - Une fois une partie ou la totalité du travail terminé, push la branche : `git push "remote" "nom de la branche"`,
@@ -17,7 +17,7 @@ Nous allons travailler avec les branches. Une branche devra être créée pour c
 - Une fois validé, le code est mergé si il n'y a pas de conflit. En cas de conflit(s) c'est au développeur qui a push la branch de le/les résoudre.
 - Si la branche n'est plus utile, la supprimer.
 
-### Convention pour le commit
+## Convention pour le commit
 Préfixer les messages de commit par les mots libelles suivants :
 - FEAT: nouvelle fonctionnalité,
 - CHANGE: modification de code,
@@ -31,9 +31,10 @@ On va rester sur du français pour les tickets ainsi que les messages de commit.
 
 Lorsqu'un commit solutionne ou apporte une solution à quelque chose d'évoqué dans un ou plusieurs ticket(s). Optionnellement, ajouter la mention `closes #ticket-number1 #ticket-number2 ...` dans le message du commit. Sinon, il est possible de faire la même chose dans une pull request.
 
-## Mise en production
+# Mise en production
+À définir....
 
-## Tickets
+# Tickets
 Lorqu'un bug a été découvert, il faut laisser apparaître un écrit. Pour cela on va utiliser les tickets de GitHub.
 
 Pour déclarer un bug un ticket doit être de la forme suivante
@@ -48,4 +49,40 @@ REPRODUCTION : comment reproduire le bug, comment tu as été amené à le voir.
 DESCRIPTION : optionnel, tu peux donner des idées sur son origine ou apporter des précisions par exemple.
 ```
 
-## Code
+# Code
+Ici tu vas voir comment tout le monde devra développer. Le but n'est pas de t'ennuyer mais de garder un code homogène qui rend les choses plus simples pour débugger !
+
+## General
+Applicable à tous les langages
+
+### Constantes
+Doivent être écrites en MAJUSCULE snake_case
+```
+FOOBAR // <- ceci est une constante
+FOO_BAR // <- ceci est une constante
+Foo_BAR // <- ceci n'est pas une constante
+foobar // <- ceci n'est pas une constante
+```
+
+### Variables
+Doivent être écrites en minuscule camelCase
+```
+foobar // <- ceci est une variable
+fooBar // <- ceci est une variable
+foor_bar // <- ceci n'est pas une variable
+Foobar // <- ceci n'est pas une variable
+```
+
+### Objets
+Doivent être écrits en CamelCase
+```
+Foobar // <- ceci est une objet
+FooBar // <- ceci est une objet
+fooBar // <- ceci n'est pas une objet
+Foo_Bar // <- ceci n'est pas une objet
+```
+
+## PHP
+
+## JavaScript
+
