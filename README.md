@@ -82,6 +82,47 @@ fooBar // <- ceci n'est pas une objet
 Foo_Bar // <- ceci n'est pas une objet
 ```
 
+### Fonctions et méthodes
+Doivent être écrites en minuscule camelCase. Le block doit être espacé d'un espace.
+```
+// Pas bon
+function a(){
+}
+
+// Bon
+function a() {
+}
+```
+
+### Affectation et opérations
+Les opérateurs doivent toujours être espacés, sauf pour les parenthèses.
+```
+a = 1 // Bon
+a = b + (1 - 2) // Bon
+a = b+1 // Pas bon
+```
+
+### Bloques et conditions ternaires
+Les bloques en ligne sont permis et recommandés que si ils font moins de 100 caractères (columns). Sinon, écrire les conditions en bloque. Les conditions ternaires s'appliquent à cette règle.
+```
+for(;;) sayHi() // Bon
+a = (isTrue()) ? 'yes' : 'no' // Bon
+
+// Bon
+if(thisFonctionIsReallyReallyLong() && thisIsAnotherReallyLongFunction()) {
+  return true
+} else {
+  return false
+}
+
+// Pas bon, c'est trop long pour le inline
+if(thisFonctionIsReallyReallyLong() && thisIsAnotherReallyLongFunction()) return true
+else return false
+
+// Bon
+if(isTrue()) return true
+else return false
+```
 ## PHP
 
 ## JavaScript
