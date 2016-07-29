@@ -1,4 +1,4 @@
-# GitHub workflow
+# GitHub
 
 Il y aura toujours 2 branches sur lesquelles ont ne devra jamais push directement notre travail :
 - `master` qui servira pour la production,
@@ -27,9 +27,6 @@ Quand un commit comporte plusieurs objectifs à la fois, choisir le libelle le p
 On va rester sur du français pour les tickets ainsi que les messages de commit. Le message devra être neutre et doit stipuler qu'est ce qu'il impacte. Dans l'exemple du dessus il s'agit d'une modification sur la bannière du site.
 
 Lorsqu'un commit solutionne ou apporte une solution à quelque chose d'évoqué dans un ou plusieurs ticket(s). Optionnellement, ajouter la mention `closes #ticket-number1 #ticket-number2 ...` dans le message du commit. Sinon, il est possible de faire la même chose dans une pull request.
-
-# Mise en production
-À définir....
 
 # Tickets
 Lorqu'un bug a été découvert, il faut laisser apparaître un écrit. Pour cela on va utiliser les tickets de GitHub.
