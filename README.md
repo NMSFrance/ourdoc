@@ -123,7 +123,25 @@ else return false
 if(isTrue()) return true
 else return false
 ```
+
+### Commentaires
+Un commentaire sur une ligne doit pas exceder plus de 100 caractères (columns), sinon, un bloque de commentaire doi être préféré.
+```
+// short com <- Good
+// this is a very very very very very very very very very very very very very very very very very very very very long com <- Bad
+
+/*
+ * this is a very very very very very very very very very very
+ * very very very very very very very very very very very very
+ * very very very long com <- Good
+ */
+```
+Ne jamais push du code commenté. Ce code doit être supprimé.
+```
+// a = 1 <- doit être supprimé
+```
+
 ## PHP
 
-## JavaScript
+## TypeScript
 
