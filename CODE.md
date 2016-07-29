@@ -1,9 +1,4 @@
-# Code
-Ici tu vas voir comment tout le monde devra développer. Le but n'est pas de t'ennuyer mais de garder un code homogène qui rend les choses plus simples pour débugger !
-
-[:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
-
-## General
+# General
 Applicable à tous les langages
 
 ### Indentation
@@ -25,7 +20,7 @@ block
 
 [:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
 
-### Constantes
+## Constantes
 Doivent être écrites en MAJUSCULE snake_case
 ```
 FOOBAR // <- ceci est une constante
@@ -36,7 +31,7 @@ foobar // <- ceci n'est pas une constante
 
 [:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
 
-### Variables
+## Variables
 Doivent être écrites en minuscule camelCase
 ```
 foobar // <- ceci est une variable
@@ -47,7 +42,7 @@ Foobar // <- ceci n'est pas une variable
 
 [:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
 
-### Objets
+## Objets
 Doivent être écrits en CamelCase
 ```
 Foobar // <- ceci est une objet
@@ -58,7 +53,7 @@ Foo_Bar // <- ceci n'est pas une objet
 
 [:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
 
-### Fonctions et méthodes
+## Fonctions et méthodes
 Doivent être écrites en minuscule camelCase. Le block doit être espacé d'un espace.
 ```
 // Pas bon
@@ -72,7 +67,7 @@ function a() {
 
 [:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
 
-### Affectation et opérations
+## Affectation et opérations
 Les opérateurs doivent toujours être espacés, sauf pour les parenthèses.
 ```
 a = 1 // Bon
@@ -82,7 +77,7 @@ a = b+1 // Pas bon
 
 [:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
 
-### Bloques et conditions ternaires
+## Bloques et conditions ternaires
 Les bloques en ligne sont permis et recommandés que si ils font moins de 100 caractères (columns). Sinon, écrire les conditions en bloque. Les conditions ternaires s'appliquent à cette règle.
 ```
 for(;;) sayHi() // Bon
@@ -106,7 +101,7 @@ else return false
 
 [:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
 
-### Commentaires
+## Commentaires
 Un commentaire sur une ligne doit pas exceder plus de 100 caractères (columns), sinon, un bloque de commentaire doi être préféré.
 ```
 // short com <- Good
@@ -125,10 +120,10 @@ Ne jamais push du code commenté. Ce code doit être supprimé.
 
 [:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
 
-## PHP
+# PHP
 
 [:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
 
-## TypeScript
+# TypeScript
 
 [:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
