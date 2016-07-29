@@ -16,6 +16,8 @@ Nous allons travailler avec les branches. Une branche devra être créée pour c
 - Une fois validé, le code est mergé si il n'y a pas de conflit. En cas de conflit(s) c'est au développeur qui a push la branch de le/les résoudre.
 - Si la branche n'est plus utile, la supprimer.
 
+[:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
+
 ## Convention pour le commit
 Préfixer les messages de commit par les mots libelles suivants :
 - FEAT: nouvelle fonctionnalité,
@@ -29,6 +31,8 @@ Quand un commit comporte plusieurs objectifs à la fois, choisir le libelle le p
 On va rester sur du français pour les tickets ainsi que les messages de commit. Le message devra être neutre et doit stipuler qu'est ce qu'il impacte. Dans l'exemple du dessus il s'agit d'une modification sur la bannière du site.
 
 Lorsqu'un commit solutionne ou apporte une solution à quelque chose d'évoqué dans un ou plusieurs ticket(s). Optionnellement, ajouter la mention `closes #ticket-number1 #ticket-number2 ...` dans le message du commit. Sinon, il est possible de faire la même chose dans une pull request.
+
+[:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
 
 # Tickets
 Lorqu'un bug a été découvert, il faut laisser apparaître un écrit. Pour cela on va utiliser les tickets de GitHub.
@@ -44,3 +48,5 @@ REPRODUCTION : comment reproduire le bug, comment tu as été amené à le voir.
 
 DESCRIPTION : optionnel, tu peux donner des idées sur son origine ou apporter des précisions par exemple.
 ```
+
+[:arrow_left: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
