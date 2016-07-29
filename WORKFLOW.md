@@ -6,6 +6,8 @@ Il y aura toujours 2 branches sur lesquelles ont ne devra jamais push directemen
 
 Nous allons travailler avec les branches. Une branche devra être créée pour contextualiser le travail à réaliser, par exemple je souhaite refondre des éléments graphiques, je vais créer une branche `design-update`.
 
+[:back: retourner au sommaire](https://github.com/NMSFrance/ourdoc)
+
 ## Etapes
 - Créer un branche basée sur la branche `dev` : `git checkout -b "nom de la branche"`,
 - Travailler dessus en local,
