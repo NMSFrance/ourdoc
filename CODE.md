@@ -1,7 +1,7 @@
 # General
 Applicable à tous les langages
 
-### Indentation
+## Indentation
 Deux espaces. Attention à ne pas mettre de tab space, il s'agit bien de 2 espaces.
 ```
 // Bien
